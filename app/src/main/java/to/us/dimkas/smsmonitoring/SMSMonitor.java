@@ -1,10 +1,9 @@
-package ru.ookamilb.rugball;
+package to.us.dimkas.smsmonitoring;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.telephony.SmsMessage;
-import android.util.Log;
 
 public class SMSMonitor extends BroadcastReceiver {
 	private static final String ACTION = "android.provider.Telephony.SMS_RECEIVED";

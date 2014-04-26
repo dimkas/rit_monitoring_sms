@@ -1,4 +1,4 @@
-package ru.ookamilb.rugball;
+package to.us.dimkas.smsmonitoring;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -11,7 +11,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
-import android.text.TextUtils;
 
 public class SmsContentProvider extends ContentProvider {
 	private SmsDatabaseHelper database;

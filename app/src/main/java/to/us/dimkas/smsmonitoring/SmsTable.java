@@ -1,4 +1,4 @@
-package ru.ookamilb.rugball;
+package to.us.dimkas.smsmonitoring;
 
 import android.database.sqlite.SQLiteDatabase;
 

@@ -1,4 +1,4 @@
-package ru.ookamilb.rugball;
+package to.us.dimkas.smsmonitoring;
 
 
 /**
@@ -15,6 +15,7 @@ public class UL {
     String firstMeeterValue;
     String secondMeeterValue;
     String someData3;
+    int paramCount = 10;
 
     public UL(String ul) {
         header = ul.substring(0, 2);
@@ -29,7 +30,12 @@ public class UL {
         someData3 = ul.substring(101);
     }
 
+    public int getParamCount() {
+        return paramCount;
+    }
+
     @Override
+
     public String toString() {
         String tmp = "Version: " + version + "\n Voltage: " + voltage + "\n Temperature: " + temperature;
         return tmp;

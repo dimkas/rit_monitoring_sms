@@ -1,4 +1,4 @@
-package ru.ookamilb.rugball;
+package to.us.dimkas.smsmonitoring;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -24,7 +24,7 @@ public class MainActivity extends ListActivity implements
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.sms_list);
+		setContentView(to.us.dimkas.smsmonitoring.R.layout.sms_list);
 //		this.getListView().setDividerHeight(2);
 		fillData();
 	}
